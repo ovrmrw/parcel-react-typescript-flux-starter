@@ -8,6 +8,6 @@ export type StoreContext = {
   dispatch: (action: Action) => void;
 };
 
-const Store = React.createContext({} as any);
+const Store = React.createContext({} as StoreContext);
 
 export default Store;
